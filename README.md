@@ -97,6 +97,21 @@ using **findIndex** return the index of the oldest person and their name and age
     }
 ]
 ```
+
+## Task 5
+Implement **isIsogram** function 
+### Definition 
+A **isIsogram** is a word, phrase, or sentence in which no letter of the alphabet occurs more than once. The terms __Heterogram__ and nonpattern word have also been used to mean the same thin [Read more](https://en.wikipedia.org/wiki/Heterogram_(literature)#Isograms)
+
+example: __ambidextrous__
+```javascript
+  console.log(isIsogram("ambidextrous") // true
+  console.log(isIsogram("didier") // false
+```
+### Hints
+   1. This can be a single word or a sentence, they may contain capital letters and lowercases
+   2. ``` .split() .toLowerCase() set ```
+
 ###### to be continued, I will keep updating this reo for better and more challenging questions
 
 # everyone is welcome to contribute
