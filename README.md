@@ -111,7 +111,21 @@ example: __ambidextrous__
 ### Hints
    1. This can be a single word or a sentence, they may contain capital letters and lowercases
    2. ``` .split() .toLowerCase() set ```
+## Task 6
+Implement **isLeapYear** function
+### Definition 
 
+1.	Leap Years are any year that can be exactly divided by 4 (such as 2016, 2020, 2024, etc)
+2.	except if it can be exactly divided by 100, then it isn't (such as 2100, 2200, etc)
+3.	except if it can be exactly divided by 400, then it is (such as 2000, 2400)
+[read more](https://www.mathsisfun.com/leap-years.html)
+
+```javascript
+    console.log(isLeapYear("2020")); // true
+    console.log(isLeapYear("2018")); // false
+    console.log(isLeapYear("1700")); // false
+    console.log(isLeapYear("1600")); // true
+```
 ###### to be continued, I will keep updating this reo for better and more challenging questions
 
 # everyone is welcome to contribute
